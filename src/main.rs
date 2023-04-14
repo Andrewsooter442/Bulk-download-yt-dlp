@@ -13,7 +13,7 @@ fn get_links(path:&str) -> Vec<String> {
             let links: Vec<String> = message.lines().map(String::from).collect();
                links
         },
-        Err(_) => panic!("Can't read the links file make sure the formate is correct"),
+        Err(_) => panic!("Can't read the links file make sure the formate is correct PLZ"),
         
     };
     links
